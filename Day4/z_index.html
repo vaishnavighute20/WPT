@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        img{
+            z-index:0;
+        }
+        #table{
+            position:absolute;
+            top: 0;
+            z-index: -3
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="download.jpg" width="100px"height="100px"></img>
+    </div>
+    <div id="table">
+        <table bgcolor="green" border="5px" width="70px"cellspacing= "10px"cellpadding="5px">
+       <caption align="bottom">this is caption</caption>
+            <tr bgcolor="blue">
+
+                <th>product id</th>
+                <th>name</th>
+                <th>qty</th>
+                <th>price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                <fieldset>
+                    <legend>
+                        this is legend    
+                    </legend>
+                    chair--<br>this is office char,<br>
+                </fieldset>
+
+                </td>
+                <td>
+                    60
+                </td>
+                <td>
+                    400
+                </td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Table</td>
+                <td>50</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>wings of fire</td>
+                <td>20</td>
+                <td>3000</td>
+            </tr>
+        </table>
+
+
+    </div>
+</body>
+</html>
