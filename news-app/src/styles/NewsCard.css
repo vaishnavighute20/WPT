@@ -1,0 +1,38 @@
+ 
+ .news-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image section */
+.news-card-image {
+  width: 50%; /* Half the width of the card */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop image to fit */
+}
+
+/* Content section */
+.news-card-content {
+  width: 50%; /* Half the width of the card */
+  padding: 20px; /* Add padding around text */
+  display: flex;
+  flex-direction: column; /* Stack title and description vertically */
+  justify-content: center; /* Center content vertically */
+}
+
+/* Title */
+.news-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ .news-card-description {
+  font-size: 20px;
+  color: #555;
+}
